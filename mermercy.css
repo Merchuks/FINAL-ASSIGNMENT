@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   margin: 2rem;
+    height: 240rem;
+    width: 78rem;
+    border: #f45 .35rem solid;
+    
+    
+}
+
+
+ .button input {
+   width: 140px;
+   height: 1.5rem;
+   background-color: rgb(141, 17, 124);
+   border-radius: .6rem;
+ }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+ nav .logo {
+    display: flex;
+gap: 1rem
+ }
+ nav .logo img {
+    height: 2rem;
+ }
+
+ div .link  {
+    display: flex;
+    list-style: none;   
+    justify-content: space-around;
+     gap: 2rem;
+     font-weight: bold;
+     
+ }
+ nav .links .link :hover {
+    opacity: 0.4;
+ }
+
+ 
+ div.btn {
+    
+    width: 140px;
+    height: 18px;
+  background-color:  #f45;
+    margin-top: 1rem;
+    border: 1PX SOLID black;
+    border-radius: .4rem;
+
+ }
+ button {
+    width: 100px;
+    border: none;
+    background-color: #f45;
+
+ }
+ .img2 img { 
+   size: 350px;
+ }
+ header
+ {
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 2rem;
+   margin: 1rem;
+
+}
+
+.flex-container { 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.flex-container .logo02 {
+display: grid;
+}
+
+ header .introduce { 
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+}
+ header .introduce p {
+   padding-top: .5rem;
+ }
+
+ .btn-container button {
+   margin-top: .5rem;
+   border: 100px;
+   border-radius: .2rem solid rgb(171, 68, 255);
+   width: 100px;
+   margin: 2rem;
+ }
+
+ header .me {
+   display: block ;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding: 1rem; 
+
+   
+ }
+ 
+header .me .button {
+   padding: .5rem;
+   padding-inline: .5rem;
+   gap: .5rem;
+   color: rgb(171, 68, 255);
+}
+
+
+h1 {
+   
+   text-align: center;
+   font-weight: 300;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+   
+main
+{
+   padding: 2rem;
+}
+main .grid
+
+{
+   
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-between;
+   padding: 1rem;
+   gap: 1rem;
+   box-shadow: .7rem #001 solid;
+   
+}
+.box-container {
+   width: 23rem;
+   height: 20rem;
+   border: #001 0.2rem solid ;
+   padding: 1rem;
+   gap: 1rem;
+   border-radius: 3.5rem;
+   box-shadow: #003 5px 5px;
+}
+.box-container .text {
+   text-align: center;
+   color: rgb(156, 18, 29);
+
+}
+.box-container input {
+   margin-top:4rem ;
+   float: inline-end;
+   width: 10rem;
+   height: 1.6rem;
+   border: .2rem solid ;
+border-radius: 1rem;
+
+   margin: 1rem;
+}
+
+
+.box-container1 {
+   width: 23rem;
+   height: 20rem;
+   border: #001 0.2rem solid ;
+   padding: 1rem;
+   gap: 1rem;
+   border-radius: 3.5rem;
+   box-shadow: #003 5px 5px;
+}
+.box-container1 .text {
+   text-align: center;
+   color: rgb(156, 18, 29);
+}
+
+.box-container1 input {
+   margin-top:4rem ;
+   float: inline-end;
+   width: 10rem;
+   height: 1.6rem;
+   border: .2rem solid ;
+border-radius: 1rem;
+ margin: 1rem;
+}
+.box-container2 {
+   width: 23rem;
+   height: 20rem;
+   border: #001 0.2rem solid ;
+   padding: 1rem;
+   gap: 1rem;
+   border-radius: 3.5rem;
+   box-shadow: #003 5px 5px;
+}
+.box-container2 .text {
+   text-align: center;
+   color: rgb(156, 18, 29);
+}
+
+.box-container2 input {
+   margin-top:4rem ;
+   float: inline-end;
+   width: 10rem;
+   height: 1.6rem;
+   border: .2rem solid ;
+border-radius: 1rem;
+
+   margin: 1rem;
+}
+.box-container3 {
+   width: 23rem;
+   height: 20rem;
+   border: #001 0.2rem solid ;
+   padding: 1rem;
+   gap: 1rem;
+   border-radius: 3.5rem;
+   box-shadow: #003 5px 5px; 
+}
+.box-container3 .text {
+   text-align: center;
+   color: rgb(156, 18, 29);
+}
+.box-container3 input {
+   margin-top:4rem ;
+   float: inline-end;
+   width: 10rem;
+   height: 1.6rem;
+   border: .2rem solid ;
+border-radius: 1rem;
+
+   margin: 1rem;
+}
+
+ .box-container img
+{
+   width: 13rem;
+   height: 13rem;
+}
+.box-container1 img
+{
+   width: 13rem;
+   height: 13rem;
+}
+.box-container2 img
+{
+   width: 13rem;
+   height: 13rem;
+}
+.box-container3 img
+{
+   width: 13rem;
+   height: 13rem;
+}
+
+
+.box-container4 
+{
+   display: grid;
+   grid-template-columns: auto auto;
+   height: 18rem;
+width: 68rem;
+border: .2rem solid #001;
+border-radius: 5rem;
+margin-left: 3.5rem;
+box-shadow: #002 10px 10px;
+
+}
+.box-container4 .cover img {
+   width: 17rem;
+   height: 12rem;
+   padding: 2rem;
+}
+.box-container .cover1 {
+   margin-inline: auto;
+   padding: 2rem;
+}
+.box-container4 .cover1 p {
+   text-align: center;
+   font-weight: bold;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 2rem;
+   font-weight: 200;
+   color: rgb(38, 6, 68);
+   
+   
+}
+.box-container4 .cover1 h1 {
+   text-align: center;
+padding-right:  3rem; ;
+   font-size: 3rem;
+   font-family: Arial, Helvetica, sans-serif;  
+   font-weight: 300;
+   color: rgb(171, 68, 255) ; 
+}
+.box-container4 .cover1 h3 {
+   text-align: center;
+   text-decoration: dotted;
+   font-size: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.box-container4 .cover1 input {
+   margin-top:4rem ;
+   float: inline-end;
+   width: 10rem;
+   height: 1.6rem;
+   border: rem solid ;
+border-radius: .2rem;
+   color: rgb(rgb(255, 0, 119), green, blue);
+   margin: 1rem;
+}
+
+.Portfolio {
+   padding: 2.5rem;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Portfolio input {
+   width: 10rem;
+   height: 1.7rem;
+   margin: 1rem;
+   border: .3rem solid;
+   border-radius: .7rem;
+   
+}
+.grid-style {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-between;
+   padding-bottom: 1.5rem;
+   }
+   
+   .box-container5 {
+      display: flex;
+      width: 25rem;
+      height: 17rem;
+      border: #001 0.2rem solid ;
+      gap: 2rem;
+      border-radius: .7rem;
+      box-shadow: #003 4px 4px;
+      
+   }
+   .box-container5 .text1  {
+      display: grid;
+      border-radius: .7rem;
+      background-color: #fff;
+      border-bottom: none;
+       }
+ 
+
+   .box-container6 {
+      display: flex;
+      width: 25rem;
+      height: 17rem;
+      border: #001 0.2rem solid ;
+      gap: 1rem;
+      border-radius: .7rem;
+      margin-bottom: 1.5rem;
+      box-shadow: #002 4px 4px;
+   }
+   .box-container7 .text2  {
+      display: grid;
+      border-radius: .7rem;
+      background-color: #fff;
+       }
+   .box-container7 {
+      display: flex;
+      width: 25rem;
+      height: 17rem;
+      border: #001 0.2rem solid ;
+      gap: 1rem;
+      border-radius: .7rem;
+      box-shadow: #003 4px 4px;
+   }
+   .box-container7 .text3  {
+      display: grid;
+      border-radius: .7rem;
+      background-color: #fff;
+       }
+   .box-container8 {
+      display: flex;
+      width: 25rem;
+      height: 17rem;
+      border: #001 0.2rem solid ;
+      gap: 1rem;
+      border-radius: .7rem;
+      box-shadow: #003 4px 4px;
+   } 
+    .box-container8 .text4 {
+      display: grid;
+      border-radius: .7rem;
+      background-color: #fff;
+       }
+main .text5 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   padding: 2rem;
+   color: rgb(255, 68, 208);
+}
+ .box-container9 {
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-around;
+   padding: 3rem;
+  
+}
+.box-container9 .text9
+{
+   margin: 2rem;
+   border: #001 .2rem solid;
+   height: 32rem;
+   width: 30rem;
+   padding: 2rem;
+ border: .2rem solid;
+ box-shadow: #003 3px 3px;
+}
+.box-container9 .img4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-inline: auto;
+}
+.box-container9 .img4 img {
+   height: 20rem;
+   width: 20rem;
+}
+.box-container9 .img4 h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   color: #f45;
+}
+footer {
+   display:flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   padding: 2rem;
+   margin-inline: auto;
+   
+}
+.base {
+   display:flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   padding: 2rem;
+   margin-inline: auto;
+}
+
+.base .img0 {
+   margin-inline: auto;
+   margin-bottom: 1rem;
+}
+.base .career {
+   display: flex;
+   margin-inline: auto;
+   padding-left: 1rem;
+   margin: 1rem;
+   justify-content: space-around;
+   
+}
+.base .underline {
+   display: flex;
+   margin-inline: auto;
+   justify-content: center;
+   padding: 1rem;
+   gap: 2rem;
+   border-bottom: #001 .3rem solid ;
+   width: 65rem;
+   margin-bottom: 1rem;
+}
+.base .links {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   gap: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: bold;
+   padding-inline: 2rem;
+}
+
+
+
+   
+
+
+   
+
+
+
+ 
